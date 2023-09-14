@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="display-4">Галерея фотографий об игре</h1>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <a href="{% static 'images/img1.jpg' %}" data-lightbox="game-gallery" data-title="Описание фото 1">
+                    <img src="{% static 'images/img1.jpg' %}" alt="Фото 1" class="img-fluid rounded">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="{% static 'images/img2.jpg' %}" data-lightbox="game-gallery" data-title="Описание фото 2">
+                    <img src="{% static 'images/img2.jpg' %}" alt="Фото 2" class="img-fluid rounded">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="{% static 'images/img2.jpg' %}" data-lightbox="game-gallery" data-title="Описание фото 3">
+                    <img src="{% static 'images/img2.jpg' %}" alt="Фото 3" class="img-fluid rounded">
+                </a>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <a href="{% static 'images/img1.jpg' %}" data-lightbox="game-gallery" data-title="Описание фото 1">
+                    <img src="{% static 'images/img1.jpg' %}" alt="Фото 1" class="img-fluid rounded">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="{% static 'images/img2.jpg' %}" data-lightbox="game-gallery" data-title="Описание фото 2">
+                    <img src="{% static 'images/img2.jpg' %}" alt="Фото 2" class="img-fluid rounded">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="{% static 'images/img2.jpg' %}" data-lightbox="game-gallery" data-title="Описание фото 3">
+                    <img src="{% static 'images/img2.jpg' %}" alt="Фото 3" class="img-fluid rounded">
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
